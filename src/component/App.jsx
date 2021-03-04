@@ -1,12 +1,12 @@
 import react, { useState } from "react";
 import ReactDOM from "react-dom";
 
-var count = 0;
-
 function App() {
-  const state = useState();
+  const [count, setCount] = useState(0);
 
-  function increase() {}
+  function increase() {
+    setCount(count + 1);
+  }
 
   return (
     <div className="container">
