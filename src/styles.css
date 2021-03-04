@@ -1,5 +1,5 @@
 button {
-  background-color: red; /* Green */
+  background-color: green; /* Green */
   border: 1;
   color: black;
   padding: 50px;
@@ -15,4 +15,17 @@ body {
   color: yellow;
   background-color: black;
   text-align: center;
+}
+.button {
+  background-color: red; /* Green */
+  border: 1;
+  color: black;
+  padding: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
 }
