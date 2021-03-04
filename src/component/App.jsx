@@ -1,10 +1,18 @@
-import react from "react";
+import react, { useState } from "react";
+import ReactDOM from "react-dom";
 
-export default function App() {
+var count = 0;
+
+function App() {
+  const state = useState();
+
+  function increase() {}
+
   return (
     <div className="container">
       <h1>0</h1>
-      <button>+</button>
+      <button onClick={increase}>+</button>
     </div>
   );
 }
+export default App;
